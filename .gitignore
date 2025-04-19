@@ -1,18 +1,44 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Unity Generated
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
-[Bb]uilds/
 [Ll]ogs/
 UserSettings/
 MemoryCaptures/
-*.csproj
-*.unityproj
-*.sln
-*.user
-*.pidb
-*.booproj
-.DS_Store
-.vscode/
-.idea/
+
+# Visual Studio / Rider
 .vs/
+.idea/
+*.suo
+*.user
+*.csproj
+*.sln
+*.pidb
+
+# VSCode
+.vscode/
+
+# Unity Package Cache
+Packages/packages-lock.json
+
+# Crash Reports
+sysinfo.txt
+*.stacktrace
+
+# Builds (you can remove this if you want to commit exported builds)
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.app
+*.dylib
+*.so
+
+# Optional: Unity asset store tools or placeholder assets
+Assets/AssetStoreTools*
+Assets/**/Placeholder*.png
